@@ -1,0 +1,28 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Navbar from './components/sections/Navbar'
+import { Routes } from 'react-router-dom'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+  
+
+    <div className="min-h-screen bg-gradient-to-br from-blue-100/50 to-green-100/50">
+      
+<Navbar/>
+
+<Routes
+
+
+
+       </div>
+
+
+  )
+}
+
+export default App
