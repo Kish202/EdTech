@@ -41,7 +41,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-gradient-to-br from-white/70 via-blue-70 to-green-70 overflow-hidden pl-16 pr-16 mt-16">
+    <footer className="relative bg-gradient-to-br from-white/70 via-blue-50 to-green-50 overflow-hidden pl-16 pr-16 mt-16">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-green-500 opacity-70"></div>
       <div className="absolute -top-32 -left-32 w-64 h-64 rounded-full bg-blue-500/10 blur-3xl"></div>
